@@ -32,9 +32,9 @@ import pymysql
 
 #DB 연결
 def Dbconnect():
-    conn = pymysql.connect(host = "springbootwebservice.cswjizuxbvif.ap-northeast-2.rds.amazonaws.com",
-                      user = "qmrma987",
-                      password = "12345678",
+    conn = pymysql.connect(host = "",
+                      user = "",
+                      password = "",
                       db = "test",
                       charset = "utf8")
 
